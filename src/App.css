@@ -1,5 +1,5 @@
 .marquee {
-  border-top: 5px solid #fe5236 !important; 
+  border-top: 5px solid #fe5236 !important;
   border-bottom: 5px solid #fe5236 !important;
   background-color: #f2ff7f;
 }
@@ -12,16 +12,16 @@
 }
 
 .marque-container {
-    display: flex;
-    padding: 1vw 0 0.7vw;
+  display: flex;
+  padding: 1vw 0 0.7vw;
 }
 
 .mover-1 {
-    width: max-content;
-    overflow-x: hidden;
-    top: 0;
-    left: 0;
-    animation: moveSlideshow 5s linear infinite !important;
+  width: max-content;
+  overflow-x: hidden;
+  top: 0;
+  left: 0;
+  animation: moveSlideshow 5s linear infinite !important;
 }
 .marque-container span {
   font-size: 2.22vw;
@@ -44,11 +44,7 @@
 }
 
 @keyframes moveSlideshow {
-    /* 0% {
-      transform: translateX(100%);
-    } */
-    100% {
-      transform: translateX(-17%); /* Adjust the percentage to control speed */
-    }
+  100% {
+    transform: translateX(-17%);
   }
-  
+}
